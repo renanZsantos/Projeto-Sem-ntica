@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <title> Futebol </title>
+
+
+    <style>
+            /* ===========================
+            Reset / Global
+            =========================== */
+            body {
+            font-family: 'Manrope', sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* altura mínima da tela */
+            margin: 0;
+            padding: 0;
+            }
+
+            /* ===========================
+            Conteúdo principal
+            =========================== */
+            .content {
+            display: flex;
+            justify-content: space-around;
+            flex: 1; 
+            }
+
+            /* ===========================
+            Artigos e links
+            =========================== */
+            #artigos, #ancoras {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            }
+
+            ul li {
+            list-style: none;
+            margin-bottom: 0.625rem; /* 10px -> rem */
+            cursor: pointer;
+            margin:0px;
+            }
+
+            ul li a {
+            text-decoration: none;
+            color: inherit; /* mantém a cor do texto */
+            
+            }
+
+            /* ===========================
+            Footer
+            =========================== */
+            footer {
+            margin-top: 2rem;
+            padding: 1rem;
+            text-align: center;
+            background-color: #f8f8f8; /* opcional, pra destacar */
+            }
+
+            /* ===========================
+            Navegação / Header
+            =========================== */
+            nav {
+            width: 100%;
+            height: 3.75rem; /* 60px -> rem */
+            background-color: #f8f9fa;
+            display: flex;
+            align-items: center;
+            padding: 0 1.25rem; /* 20px -> rem */
+            box-shadow: 0 0.125rem 0.3125rem rgba(0,0,0,0.1); /* 2px 5px */
+            z-index: 1000;
+            }
+
+            nav #links {
+            border: 1px solid #333;
+            }
+
+            .logo {
+            font-weight: bold;
+            font-size: 1.2rem;
+            }
+
+            .hamburger {
+            display: flex;
+            flex-direction: column;
+            gap: 0.3125rem; /* 5px -> rem */
+            cursor: pointer;
+            justify-content: space-between;
+            }
+
+            .hamburger span {
+            display: block;
+            width: 1.5625rem; /* 25px -> rem */
+            height: 0.1875rem; /* 3px -> rem */
+            background-color: #333;
+            }
+</style>
+
+    </head>
+    <body>
+                <!-- testando -->
+        <section class="content">
+    
+            <section id="artigos">
+                <h2>Títulos</h2>
+                <ul>
+                    <li>Links</li>
+                    <li></li>
+                </ul>
+            </section>
+
+            <article class="main">
+                <!-- Conteúdo específico do artigo -->
+            </article>
+
+            <aside id="ancoras">
+                <h2>Neste Artigo</h2>
+                
+                    <ul>
+                        <li><a href="#o-que-e-futebol">O que é futebol</a></li>
+                        <li><a href="#historia-do-futebol">História do Futebol</a></li>
+                        <li><a href="#regras-do-jogo">Regras do Jogo</a></li>
+                        <li><a href="#resumo">Resumo</a></li>
+                        <li><a href="#conclusao">Conclusão</a></li>
+                    </ul>
+                
+    </aside>
+
+</section>
+
+            <!-- testando -->
+
+    <nav> 
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        
+    </nav>
+    <header >
+        <h1 id="o-que-e-futebol"> O que é Futebol  </h1>
+            <p>
+                O futebol é um esporte coletivo disputado por duas equipes de 11 jogadores cada, cujo objetivo é marcar  <br>   gols chutando a bola para dentro da meta adversária. Considerado <mark>o esporte mais popular do mundo,</mark>  ele é <br>
+                praticado em  todos os continentes e movimenta milhões de pessoas, seja dentro de campo, nas <br>
+                arquibancadas ou em frente à televisão. <br> <br>
+
+                Além de sua simplicidade — já que basta uma bola e espaço para jogar — o futebol também se destaca <br>
+                pela emoção que proporciona. Os dribles, passes, defesas e gols despertam paixões intensas em <br>
+                torcedores e atletas. Em muitos países, ele não é apenas um esporte, mas parte essencial da cultura e <br>
+                identidade nacional.
+            </p>
+    </header>
+    
+    <main>
+        <section>
+        <h2 id="historia-do-futebol"> História do Futebol </h2>
+            <p>
+                Embora jogos parecidos já existissem na China, Grécia e Roma, o futebol moderno nasceu na Inglaterra no século XIX, quando a Football Association criou as primeiras regras oficiais, em 1863. A partida tinha duração de <del>80 minutos</del>, mas hoje são 90. Desde então, o esporte cresceu e se espalhou, tornando-se mundial com a criação da A <abbr title="Fédération Internationale de Football Association">FIFA</abbr> em 1904 e a realização da primeira Copa do Mundo em 1930. 
+                <blockquote>"O futebol é a coisa mais importante entre as menos importantes." – Arrigo Sacchi</blockquote>  
+            </p>
+        </section>
+    
+        <section>
+        <h2 id="regras-do-jogo"> Regras do Jogo </h2>
+            <ol>
+                <li>Cada equipe tem 11 jogadores</li>
+                <li>A partida é dividida em dois tempos de 45 minutos</li>
+                <li>O objetivo é marcar mais gols que o adversário</li>
+                <li>Os jogadores não podem usar as mãos, exceto o goleiro</li>
+                <li>Faltas e infrações resultam em tiros livres ou pênaltis</li>
+                <li>O jogador que cometer uma falta pode ser advertido com um cartão amarelo ou expulso com um cartão vermelho</li>
+                <li>O jogo é controlado por um árbitro e assistentes</li>
+                <li>O árbitro é a autoridade máxima durante a partida</li>
+            </ol>
+        </section>
+    
+        <section>
+        <h2 id="resumo"> Resumo </h2>
+            <p>
+                O futebol é o esporte mais popular do planeta, com bilhões de fãs em todos os continentes. Surgiu na Inglaterra no século XIX e hoje é praticado de forma organizada em praticamente todos os países, tanto no masculino quanto no feminino. Além de ser um jogo de regras simples, o futebol é também um fenômeno cultural, social e econômico.
+            </p>
+
+             <h2 id="conclusao"> Conclusão </h2>
+            <p>
+                Mais do que apenas um jogo, o futebol é um elo que conecta diferentes povos, culturas e gerações. Ele vai além das quatro linhas, representando paixão, identidade e união. Por isso é chamado de “o esporte mais amado do mundo”.
+            </p>
+        </section>
+    
+    </main> 
+    <footer>
+    <p>&copy; 2025 Renan Santos</p>
+    <p><a href="https://github.com/renanZsantos" target="_blank">GitHub</a></p>
+  </footer>
+</body>
+</html>
