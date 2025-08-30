@@ -11,5 +11,8 @@ Projeto onde procurei criar uma **mini Wikipédia simples**, buscando deixar a p
 
 ## Tecnologias Utilizadas
 - HTML5
-- CSS3 
+- CSS3
+
+-[Clique aqui para ver online](https://semanticabasica.netlify.app/)
+
 
